@@ -1,5 +1,5 @@
 # mwahaha9.github.io
-##Hi, I'm Mwa
+## Hi, I'm Mwa
 ---
 I'm an amatur coder, I'm into video games, coding, and general computer stuff.
 
