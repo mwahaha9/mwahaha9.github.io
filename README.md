@@ -2,4 +2,4 @@
 
 ### my website
 
-hosted here using github pages, <a href="mwahaha9.xyz">mwahaha9.xyz</a>
+hosted here using github pages, <a href="https://mwahaha9.xyz">mwahaha9.xyz</a>
