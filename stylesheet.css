@@ -3,3 +3,15 @@ smallTab {
     margin-left: 250px;
 
 }
+
+body {
+    background-color:black;
+    color:lime;
+    
+  }
+  
+a, li {
+  
+    color:lime;
+  
+}
