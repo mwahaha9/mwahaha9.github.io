@@ -25,7 +25,7 @@
         path = "/"
         currentDir = "slashDir";
         slashDir = ["index.html","contacts.html", "games"];
-        games = ["index.html","snake_games.html"]
+        games = ["index.html","snake_game.html"]
         dirs = ["slashDir", "games"];
         dLen = dirs.length;
 
@@ -103,7 +103,7 @@
                         }
                        }else if(currentDir == "games"){
                         for(files in games){ 
-                            if(where == games[files]) window.top.postMessage(where, '*')
+                            if(where == games[files]) window.top.postMessage("/games/"+where, '*')
                         }
                        }
                 }
