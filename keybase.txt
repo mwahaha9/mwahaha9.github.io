@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mwahaha9
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mwahaha9.xyz
+  * I am mwahaha9 (https://keybase.io/mwahaha9) on keybase.
+  * I have a public key with fingerprint 05C6 FD45 FE6C 3F7F 72ED  96B5 3B15 82C7 6E04 8527
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ceeeac40a931e992349174ae6efcde6e8bdca09935cabc0c00e42ae44efb0dc70a",
+      "fingerprint": "05c6fd45fe6c3f7f72ed96b53b1582c76e048527",
+      "host": "keybase.io",
+      "key_id": "3b1582c76e048527",
+      "kid": "0101ceeeac40a931e992349174ae6efcde6e8bdca09935cabc0c00e42ae44efb0dc70a",
+      "uid": "5e60be6ffed5814c8ec979d9c099b419",
+      "username": "mwahaha9"
+    },
+    "service": {
+      "hostname": "mwahaha9.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1614550780,
+  "expire_in": 157680000,
+  "prev": "df56dfc83e12b971ca546292cf2181e5e947b7a1217aa0cbab9abb9b27559f5b",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIkAnicrVJZaBRBEN3NIXHjEV1JIJggo0YSlnV6dnpmej0x4g1eEBWVtbunJpkc
+O5vZSTaJRFGUiP6IiheIx5f6ExFUFCQeUbxAULzwQFCJgkGCZ4iKPUF/xE+7oYuu
+fu/1q6K6h2cHQkHn4iFSP66nMnj78r6mwLqphd/XS8wxW6X4eqkOBgPUm5D2EnW2
+KcUlGcmIAwDlqkxJDAEhSkwlSFcpaGBxU5wGMzmVCYlhThmXuSyDqlBQVbCYbHJd
+plJEsuxkNbgp1056vizmmmWq2AKNxyzd0hUwicZwjCFsKFzXQFYNrOiCWOOkfYYw
+x2gaorYjcuKSGLT3D/x/9t00KIdBkxlolgUmNpDKDeBEJybhgs5URHxgGtwkbQCB
+bsjQGrGJ1B6RRLbZ5uA31q/kL0S0pbVNcFOu4zncqRcvNZ6XSsd9ptea8qEZYInf
+IglmJ03RR8FoBjdtO0kpjgSSe7avijSkYizrhhyRoCVlu5CwfQTWNUMWy/8HmoWk
+aWHNtLgRA6QwoiNOsaopROGWggwEGIiqM50iBemUypxRRihjhCk6xsTCTPLLakw6
+UjwmbNJqIZm2q5PUa3JBar9yaU1OIBgKDMnN8ucrEBpa8GfqrNy8wOHixdqjjmD0
+RE7F8XnnMMt6PmHksaNDNl67r+4o8B7tLQwP7CnVBlp+TvcWfb608nz0wuMjbSUZ
+tzz/W3Z4bGNXvdsWzEkV31r+8oM66czdrrKhfaPKGqSsUZ3XK42r2z9W5WwtGte+
+ZKJSfnDztMSr8M7WBa8Kej7v7hqxfcvsxq/3Nl19152/Ze7almev+zs7bu4pGLEq
+tuBGX97TE6sjJXcOFdV+26V3vp8w7+XkN8XR3I4dqezaDWfWVQ5EQpWBH73h8RWv
+F65cMfBw9Ke2GW7prKXDuueOqb5d+mVm//7jeaG8SQdKwk/m956tOjnl7ZLTi0NV
+L5btzDpV8yA3c+w6KjqZ2TbnFw1hNVE=
+=CYuI
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mwahaha9
+
+==================================================================
