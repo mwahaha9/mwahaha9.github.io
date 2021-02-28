@@ -13,3 +13,9 @@ a, li {
     color:lime;
   
 }
+
+.center {
+    border: 5px solid #f9f9f9;
+    display: flex;
+    justify-content: center;
+    }
