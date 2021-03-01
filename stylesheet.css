@@ -1,3 +1,8 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 
 body {
     background-color:#121212;
@@ -35,6 +40,4 @@ body {
 
 a {
     border-radius: 10px;
-
-
 }
