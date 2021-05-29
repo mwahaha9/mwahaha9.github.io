@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/stylesheet.css">
+    
+    <script>
+        function gotoLink(link){
+            window.location.replace(link);
+        }
+    </script>
+
+    <style>
+        
+        body {
+    background-color:#659DBD;
+        }
+         
+        .neuron {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        }
+
+        .neuron img {
+        width: 1080px;
+        height: auto;
+        border: 0px;
+        } 
+
+        .neuron .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: black;
+        font-size: 16px;
+        border:none;
+        cursor: pointer;
+        text-align: center;
+        }
+
+        .neuron .btn:hover {
+        border: 2px solid black;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+
+    <div class="neuron">
+
+        <img src="neuron_labled.png" alt="neuron image - something went wrong" width="960" height="540" class="center">
+
+
+        <button onclick="gotoLink('');" style="left: 92px; top: 202px; padding:16px 39px;" class="btn">
+        <button onclick="gotoLink('dendrites.html');" style="left: 168px; top: 525px; padding:16px 66px;" class="btn">
+        <button onclick="gotoLink('');" style="left: 410px; top: 560px; padding:16px 55px;" class="btn">
+        <button onclick="gotoLink('');" style="left: 548px; top: 155px; padding:16px 83px;" class="btn">
+        <button onclick="gotoLink('');" style="left: 628px; top: 508px; padding:14px 40px;" class="btn">
+        <button onclick="gotoLink('');" style="left: 975px; top: 433px; padding:16px 100px;" class="btn">
+
+
+
+
+
+    </div>
+
+</body>
+
+
+
+</html>

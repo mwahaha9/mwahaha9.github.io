@@ -41,3 +41,38 @@ body {
 a {
     border-radius: 10px;
 }
+
+.description-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    height: 600px;
+    width: 500px;
+    border: 5px solid #f9f9f9;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contacts-container {
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    height: 200px;
+    width: 350px;
+    border: 5px solid #f9f9f9;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.custom-restricted-width {
+    display: inline-block;
+    height: 50px;
+
+}
