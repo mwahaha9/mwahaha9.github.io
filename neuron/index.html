@@ -2,16 +2,22 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="/stylesheet.css">
+    <!--<link rel="stylesheet" href="/stylesheet.css">-->
     
     <script>
         function gotoLink(link){
-            window.location.replace(link);
+            window.location.assign(link);
         }
     </script>
 
     <style>
-        
+        @import url('https://rsms.me/inter/inter.css');
+        html { font-family: 'Inter', sans-serif; }
+        @supports (font-variation-settings: normal) {
+        html { font-family: 'Inter var', sans-serif; }
+        }
+
+
         body {
     background-color:#659DBD;
         }
@@ -41,10 +47,64 @@
         cursor: pointer;
         text-align: center;
         }
+        .neuron p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: rotate(30deg);
+            -webkit-transform: rotate(30deg);
+
+            /* Firefox */
+            -moz-transform: rotate(30deg);
+
+            /* IE */
+            -ms-transform: rotate(30deg);
+
+            /* Opera */
+            -o-transform: rotate(30deg);
+
+            
+            background-color: transparent;
+            color: black;
+            font-size: 16px;
+            border:none;
+            text-align: center;
+    
+            align-self: flex-end;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin: 0 auto 0 auto;
+            transform-origin: bottom;
+        }
+
+        .stage {
+            position: absolute;
+            top: 10%;
+            left: 20%;
+            height: 35px;
+            width: 100%;
+            transform: rotate(30deg);
+        }
+    
+        .bounce-1 {
+            animation-name: bounce-1;
+            animation-timing-function: linear;
+        }
+        @keyframes bounce-1 {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-25px); }
+            100% { transform: translateY(0); }
+        }
 
         .neuron .btn:hover {
         border: 2px solid black;
+        background-color: transparent;
         }
+
+
+
+
+
 
         
     </style>
@@ -53,17 +113,22 @@
 
 <body>
 
+    <h2 style="text-align:center">Anatomy of a Neuron</h2>
+
     <div class="neuron">
 
         <img src="neuron_labled.png" alt="neuron image - something went wrong" width="960" height="540" class="center">
 
+        <div class="stage">
+            <p style="left: 50px; top: 165px; padding:16px 39px;" class="bounce-1">Click me!</p>
+        </div>
 
-        <button onclick="gotoLink('');" style="left: 92px; top: 202px; padding:16px 39px;" class="btn">
+        <button onclick="gotoLink('soma.html');" style="left: 92px; top: 202px; padding:16px 39px;" class="btn">
         <button onclick="gotoLink('dendrites.html');" style="left: 168px; top: 525px; padding:16px 66px;" class="btn">
-        <button onclick="gotoLink('');" style="left: 410px; top: 560px; padding:16px 55px;" class="btn">
-        <button onclick="gotoLink('');" style="left: 548px; top: 155px; padding:16px 83px;" class="btn">
-        <button onclick="gotoLink('');" style="left: 628px; top: 508px; padding:14px 40px;" class="btn">
-        <button onclick="gotoLink('');" style="left: 975px; top: 433px; padding:16px 100px;" class="btn">
+        <button onclick="gotoLink('nucleus.html');" style="left: 410px; top: 560px; padding:16px 55px;" class="btn">
+        <button onclick="gotoLink('axon_hillock.html');" style="left: 548px; top: 155px; padding:16px 83px;" class="btn">
+        <button onclick="gotoLink('axon.html');" style="left: 628px; top: 508px; padding:14px 40px;" class="btn">
+        <button onclick="gotoLink('axon_terminal.html');" style="left: 975px; top: 433px; padding:16px 100px;" class="btn">
 
 
 
